@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EBooks"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+
+        <activity
+            android:name=".Favorites_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Notifications_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Save_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Authors.Sixth_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Authors.Fifth_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Authors.Fourth_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Authors.Third_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Authors.Second_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Authors.First_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Popular_books_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Create_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Varification_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

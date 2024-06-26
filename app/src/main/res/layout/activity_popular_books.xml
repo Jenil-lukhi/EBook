@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1614"
+    tools:context=".Popular_books_Activity">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/group_589"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="81dp"
+            android:background="@drawable/group589" />
+
+        <TextView
+            android:id="@+id/popular_boo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp"
+            android:gravity="top"
+            android:text="@string/popular_boo"
+            android:textAppearance="@style/popular_boo1" />
+
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="364dp"
+            android:layout_height="151dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/frame3page" />
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+
+        <View
+            android:id="@+id/rect1"
+            android:layout_width="36dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="329dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="165dp"
+            android:background="@drawable/rectangle_6" />
+
+        <ImageView
+            android:id="@+id/like1"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="337dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="173dp"
+            android:background="@drawable/vector3"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/image_2"
+            android:layout_width="364dp"
+            android:layout_height="151dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/group01page" />
+
+        <View
+            android:id="@+id/rect2"
+            android:layout_width="36dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="329dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="333dp"
+            android:background="@drawable/rectangle_6" />
+
+        <ImageView
+            android:id="@+id/like2"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="337dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="341dp"
+            android:background="@drawable/vector3"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/image_3"
+            android:layout_width="364dp"
+            android:layout_height="151dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="488dp"
+            android:background="@drawable/group02page" />
+
+        <View
+            android:id="@+id/rect3"
+            android:layout_width="36dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="329dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="501dp"
+            android:background="@drawable/rectangle_6" />
+
+        <ImageView
+            android:id="@+id/like3"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="337dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/vector3"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/image_4"
+            android:layout_width="364dp"
+            android:layout_height="151dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="656dp"
+            android:background="@drawable/group03page" />
+
+        <View
+            android:id="@+id/rect4"
+            android:layout_width="36dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="329dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="669dp"
+            android:background="@drawable/rectangle_6" />
+
+        <ImageView
+            android:id="@+id/like4"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="337dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="677dp"
+            android:background="@drawable/vector3"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </RelativeLayout>
+</ScrollView>

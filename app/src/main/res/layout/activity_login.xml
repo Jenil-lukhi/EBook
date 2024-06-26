@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Activity">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/image_23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/group2" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="203dp"
+        android:layout_height="83dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:text="@string/hello"
+        android:textAppearance="@style/hello"
+        android:gravity="center_horizontal|top"
+        />
+
+
+    <TextView
+        android:id="@+id/sign_in_to_"
+        android:layout_width="203dp"
+        android:layout_height="26dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        android:text="@string/sign_in_to_"
+        android:textAppearance="@style/sign_in_to_"
+        android:gravity="center_horizontal|top"
+        />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="286dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="290dp"
+        android:gravity="top"
+        android:inputType="number"
+        android:hint="@string/some_id"
+        android:textAppearance="@style/username"
+        android:textColor="@color/brown" />
+
+            <View
+                android:id="@+id/group"
+                android:layout_width="14.86dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="301dp"
+                android:layout_marginLeft="46dp"
+                android:background="@drawable/group6"
+                />
+
+
+    <View
+        android:id="@+id/group_2"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="377dp"
+        android:background="@drawable/rectangle_1"
+
+        />
+
+<!--        <TextView-->
+<!--            android:id="@+id/forgot_your"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginLeft="206dp"-->
+<!--            android:layout_marginTop="460dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/forgot_your"-->
+<!--            android:textAppearance="@style/forgot_your" />-->
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="88dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="533dp"
+        android:text="@string/sign_in"
+        android:textAppearance="@style/sign_in"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/group_3"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="314dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="533dp"
+        android:background="@drawable/group"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="75.05dp"
+        android:layout_marginTop="380dp"
+        android:gravity="top"
+        android:hint="@string/password"
+        android:textAppearance="@style/password" />
+
+
+    <View
+        android:id="@+id/vector"
+        android:layout_width="16.19dp"
+        android:layout_height="17.05dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="393dp"
+        android:layout_marginLeft="44.82dp"
+        android:background="@drawable/pass"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="797dp"
+        android:text="@string/don_t_have_"
+        android:textAppearance="@style/don_t_have_"
+        android:gravity="center_horizontal|top"
+        />
+
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="797dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="280dp"
+            android:text="@string/don_t_have_1"
+            android:textColor="@color/coffee"
+            android:textAppearance="@style/don_t_have_"
+            android:gravity="center_horizontal|top"
+            />
+
+    </RelativeLayout>
+    </ScrollView>

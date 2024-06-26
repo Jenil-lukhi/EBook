@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create_Activity">
+
+    <View
+        android:id="@+id/image_23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/group2" />
+
+    <TextView
+        android:id="@+id/create_acco"
+        android:layout_width="206dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:text="@string/create_acco"
+        android:textAppearance="@style/create_acco"
+        android:gravity="center_horizontal|top"
+        />
+
+    <View
+        android:id="@+id/group_1"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="170dp"
+        android:gravity="top"
+        android:hint="@string/username"
+        android:textAppearance="@style/username" />
+
+            <View
+                android:id="@+id/group"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="45dp"
+                android:background="@drawable/profile2"
+                />
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="257dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="75.05dp"
+        android:layout_marginTop="262dp"
+        android:hint="@string/password"
+        android:textAppearance="@style/password"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/vector"
+        android:layout_width="16.19dp"
+        android:layout_height="17.05dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="48dp"
+        android:background="@drawable/pass"
+        />
+
+    <View
+        android:id="@+id/group_4"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="349dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+    <EditText
+        android:id="@+id/e_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="75.05dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="354dp"
+        android:hint="@string/e_mail"
+        android:textAppearance="@style/e_mail"
+        android:gravity="top"
+        />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/email"
+        android:layout_width="16.19dp"
+        android:layout_height="11.2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="43.82dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="368dp"
+        android:clipToOutline="true"
+        />
+
+    <View
+        android:id="@+id/icons"
+        android:layout_width="16.19dp"
+        android:layout_height="11.2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/email"
+        />
+
+    <View
+        android:id="@+id/group_5"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="441dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="75.05dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445dp"
+        android:hint="@string/mobile"
+        android:textAppearance="@style/mobile"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/group_6"
+        android:layout_width="14.86dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="456dp"
+        android:background="@drawable/group6"
+        />
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="74dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="226dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="529dp"
+        android:text="@string/create"
+        android:textAppearance="@style/create"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/group_3"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="314dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="529dp"
+        android:background="@drawable/group"
+        />
+    <TextView
+        android:id="@+id/or_create_a"
+        android:layout_width="257dp"
+        android:layout_height="19dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="577dp"
+        android:text="@string/or_create_a"
+        android:textAppearance="@style/or_create_a"
+        android:gravity="center_horizontal|top"
+        />
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame_2"
+        android:layout_width="151dp"
+        android:layout_height="35.05dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="132dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="621dp">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/facebook"-->
+<!--        android:layout_width="35dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@drawable/facebook"-->
+<!--        />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/twitter"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="55dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:background="@drawable/twitter"-->
+<!--            />-->
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="35.05dp"
+            android:layout_height="35.05dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/google"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

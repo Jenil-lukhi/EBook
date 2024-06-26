@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="t_h_e_w_o_r">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="hello">
+        <item name="android:textSize">64sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="sign_in_to_">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="username">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#9A9A9A</item>
+    </style>
+    <style name="forgot_your">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#BEBEBE</item>
+    </style>
+
+    <style name="sign_in">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="password">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#9A9A9A</item>
+    </style>
+
+    <style name="don_t_have_">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="enter_varif">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="we_have_sen">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#949494</item>
+    </style>
+    <style name="verify_and_">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="don_t_get_t">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#8B8B8B</item>
+    </style>
+    <style name="create_acco">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="e_mail">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#9A9A9A</item>
+    </style>
+    <style name="mobile">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#9A9A9A</item>
+    </style>
+    <style name="create">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="or_create_a">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="hello_saksh">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="let_s_start">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="search">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#878787</item>
+    </style>
+    <style name="popular_boo">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="see_all">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#91835D</item>
+    </style>
+    <style name="the_lord_of">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="j_r_r_tolki">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="ebook">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="shadowland">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="c_m_gray">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="popular_aut">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="james_joyce">-->
+                        <item name="android:textSize">12sp</item>
+                        <item name="android:textColor">#FFFFFF</item>
+                    </style>
+    <style name="william_sha">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="j_k_rowling">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="virginia_wo">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="suresh_dala">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="suman_shah">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="popular_boo1">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="a_spy_alone">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="charles_bea">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="recommended">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="martin_j_sh">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="american_pr">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="extra_india">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="eric_ganswo">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="new_release">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="soldier_s_p">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="william_bla">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="dream_love">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="hanika">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="the_lord_of1">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="nirali_pate">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="a_perfect_m">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="astha_signg">
+    <item name="android:textSize">13sp</item>
+    <item name="android:textColor">#FFFFFF</item>
+</style>
+    <style name="rich_dad_po">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="robert_t_ki">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="audiobook">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="who_will_cr">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="robin_sharm">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="chanakya_ne">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="rishi_upadh">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="sapiens">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="yuval_noah_">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="twisted_lov">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="ana_huang">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="dark_horse_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="nilotpal_mr">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="profile">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="edit_profil">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#0D99FF</item>
+    </style>
+    <style name="account">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#91835D</item>
+    </style>
+    <style name="edit_profil1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#978E73</item>
+    </style>
+    <style name="save">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#978E73</item>
+    </style>
+    <style name="notificatio">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#978E73</item>
+    </style>
+    <style name="favorite">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#978E73</item>
+    </style>
+    <style name="actions">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#91835D</item>
+    </style>
+    <style name="report_a_pr">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#978E73</item>
+    </style>
+    <style name="add_account">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#978E73</item>
+    </style>
+    <style name="log_out">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#978E73</item>
+    </style>
+    <style name="edit_profil2">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="username1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#91835D</item>
+    </style>
+    <style name="jsolijmazl">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#7C7C7C</item>
+    </style>
+    <style name="email_i_d">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#91835D</item>
+    </style>
+    <style name="hsiuknwsi_g">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#7C7C7C</item>
+    </style>
+    <style name="phone_numbe">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#91835D</item>
+    </style>
+    <style name="some_id">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#7C7C7C</item>
+    </style>
+    <style name="password1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#91835D</item>
+    </style>
+    <style name="uhskjhujsbh">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#7C7C7C</item>
+    </style>
+    <style name="update">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#140D0A</item>
+    </style>
+    <style name="ulysses_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style><style name="finnegans_w">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">#FFFFFF</item>
+</style>  <style name="the_dead">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">#FFFFFF</item>
+</style>
+    <style name="eveline">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="the_sisters">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="a_little_cl">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

@@ -1,0 +1,350 @@
+<resources>
+    <string name="app_name">E books</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="t_h_e_w_o_r">
+        T H E  W O R D S
+    </string>
+
+    <string name="hello">
+        Hello
+    </string>
+
+    <string name="sign_in_to_">
+        Sign in to your account
+    </string>
+    <string name="username">
+        Username
+    </string>
+
+    <string name="forgot_your">
+        Forgot  your password?
+    </string>
+    <string name="sign_in">
+        Sign in
+    </string>
+    <string name="password">
+        Password
+    </string>
+
+    <string name="don_t_have_">
+        Don\'t have an account?
+    </string>
+    <string name="don_t_have_1">
+        SIGNUP
+    </string>
+    <string name="enter_varif">
+        Enter \nvarification Code
+    </string>
+
+    <string name="we_have_sen">
+        We have sent a verification code to
+    </string>
+    <string name="verify_and_">
+        verify and Process
+    </string>
+    <string name="don_t_get_t">
+        Don\'t get the code?
+    </string>
+    <string name="create_acco">
+        Create account
+    </string>
+    <string name="e_mail">
+        E-mail
+    </string>
+
+    <string name="mobile">
+        Mobile
+    </string>
+
+    <string name="create">
+        Create
+    </string>
+    <string name="or_create_a">
+        Or create account using social media
+    </string>
+    <string name="hello_saksh">
+        Hello Sakshi
+    </string>
+
+    <string name="let_s_start">
+        Let,s start reading!
+    </string>
+    <string name="search">
+            Search
+        </string>
+    <string name="popular_boo">
+            Popular books
+        </string>
+    <string name="see_all">
+            See All
+        </string>
+    <string name="the_lord_of">
+            The Lord of the Rings
+        </string>
+
+    <string name="j_r_r_tolki">
+            J.R.R. Tolkien
+        </string>
+
+    <string name="ebook">
+            Ebook
+        </string>
+    <string name="shadowland">
+            Shadowland
+        </string>
+    <string name="c_m_gray">
+            C.M. gray
+        </string>
+    <string name="popular_aut">
+            Popular Authors
+        </string>
+
+    <string name="james_joyce">
+                        james joyce
+                    </string>
+
+    <string name="william_sha">
+                    William Shakespeare
+                </string>
+
+    <string name="j_k_rowling">
+                    J.K. Rowling
+                </string>
+
+
+    <string name="virginia_wo">
+                    Virginia Woolf
+                </string>
+    <string name="suresh_dala">
+                    Suresh Dalal
+                </string>
+
+    <string name="suman_shah">
+                    Suman Shah
+                </string>
+    <string name="a_spy_alone">
+        A Spy Alone
+    </string>
+    <string name="charles_bea">
+        Charles Beaumont
+    </string>
+    <string name="life_s_amazing_secrets">Life\'s Amazing Secrets</string>
+    <string name="gaur_gopal_das">Gaur Gopal Das</string>
+    <string name="audiobook">Audiobook</string>
+    <string name="lynda_la_plante">Lynda La Plante</string>
+    <string name="alibi">Alibi</string>
+    <string name="godan">Godan</string>
+    <string name="premchand">Premchand</string>
+    <string name="recommended">
+        Recommended for you
+    </string>
+    <string name="american_pr">
+        American Prometheus
+    </string>
+
+    <string name="martin_j_sh">
+        Martin J. Sherwin
+    </string>
+    <string name="extra_india">
+        Extra Indians
+    </string>
+
+
+    <string name="eric_ganswo">
+        Eric Gansworth
+    </string>
+    <string name="new_release">
+        New Releases
+    </string>
+    <string name="soldier_s_p">
+            Soldier\'s Promise
+        </string>
+
+    <string name="william_bla">
+            William Black
+        </string>
+    <string name="dream_love">
+            Dream Love
+        </string>
+    <string name="hanika">
+            Hanika
+        </string>
+    <string name="the_lord_of1">
+            The Lord of the Rings
+        </string>
+
+    <string name="nirali_pate">
+            Nirali patel
+        </string>
+
+    <string name="a_perfect_m">
+            A Perfect Murder
+        </string>
+    <string name="astha_signg">
+            Astha Signghal
+        </string>
+    <string name="rich_dad_po">
+        Rich Dad Poor Dad
+    </string>
+    <string name="robert_t_ki">
+        Robert T. Kiyosaki
+    </string>
+    <string name="who_will_cr">
+        Who Will Cry When You Die?
+    </string>
+    <string name="robin_sharm">
+        Robin Sharma
+    </string>
+    <string name="chanakya_ne">
+            Chanakya neeti
+        </string>
+
+    <string name="rishi_upadh">
+            Rishi Upadhyay
+        </string>
+    <string name="sapiens">
+            Sapiens
+        </string>
+    <string name="yuval_noah_">
+            Yuval Noah Harari
+        </string>
+
+    <string name="twisted_lov">
+            Twisted Love
+        </string>
+    <string name="ana_huang">
+            Ana Huang
+        </string>
+    <string name="dark_horse_">
+            Dark Horse: Ek Ankahi Dastan
+        </string>
+    <string name="nilotpal_mr">
+            Nilotpal Mrinal
+        </string>
+    <string name="chanakya_neeti">Chanakya neeti</string>
+    <string name="rishi_upadhyay">Rishi Upadhyay</string>
+    <string name="yuval_noah_harari">Yuval Noah Harari</string>
+    <string name="twisted_love">Twisted Love</string>
+    <string name="ana_huang1">Ana Huang</string>
+    <string name="dark_horse_ek_ankahi_dastan">Dark Horse: Ek Ankahi Dastan</string>
+    <string name="nilotpal_mrinal">Nilotpal Mrinal</string>
+    <string name="profile">
+        Profile
+    </string>
+    <string name="edit_profil">
+        Edit Profile
+    </string>
+    <string name="account">
+        Account
+    </string>
+    <string name="edit_profil1">
+        Edit profile
+    </string>
+    <string name="save">
+        Save
+    </string>
+
+    <string name="notificatio">
+        Notifications
+    </string>
+    <string name="favorite">
+        Favorite
+    </string>
+    <string name="actions">
+        Actions
+    </string>
+    <string name="report_a_pr">
+        Report a problem
+    </string>
+    <string name="add_account">
+        Add account
+    </string>
+    <string name="log_out">
+        Log out
+    </string>
+    <string name="edit_profil2">
+        Edit Profile
+    </string>
+    <string name="username1">
+        Username
+    </string>
+
+    <!--    <string name="email_i_d">-->
+    <!--        Email I/'d-->
+    <!--    </string>-->
+    <string name="hsiuknwsi_g">
+        hsiuknwsi@gmail.com
+    </string>
+    <string name="phone_numbe">
+        Phone Number
+    </string>
+    <string name="some_id">
+        +91 00000 00000
+    </string>
+    <string name="password1">
+        Password
+    </string>
+    <string name="uhskjhujsbh">
+        uhskjhujsbh
+    </string>
+    <string name="update">Update</string>
+    <string name="email_i_d">Email I’d</string>
+    <string name="the_fellowship_of_the_ring">The Fellowship of The Ring</string>
+    <string name="ulysses_">
+        Ulysses
+    </string>
+    <string name="finnegans_w">
+        Finnegans Wake
+    </string>
+    <string name="the_dead">
+        The Dead
+    </string>
+    <string name="eveline">
+        Eveline
+    </string>
+    <string name="the_sisters">
+        The Sisters
+    </string>
+
+    <string name="a_little_cl">
+        A Little Cloud
+    </string>
+    <string name="hamlet">Hamlet</string>
+    <string name="romeo_and_juliet">Romeo and Juliet</string>
+    <string name="macbeth">Macbeth</string>
+    <string name="julius_caesar">Julius Caesar</string>
+    <string name="twelfth_night">Twelfth Night</string>
+    <string name="othello">Othello</string>
+    <string name="harry_potter_and_the_philosopher_s_stone">Harry Potter and the Philosopher\'s Stone</string>
+    <string name="the_running_grave">The Running Grave</string>
+    <string name="career_of_evil">Career of Evil</string>
+    <string name="the_ickabog">The Ickabog</string>
+    <string name="the_casual_vacancy">The Casual Vacancy</string>
+    <string name="troubled_blood">Troubled Blood</string>
+    <string name="mrs_dalloway">Mrs Dalloway</string>
+    <string name="a_room_of_one_s_own">A Room of One\'s Own</string>
+    <string name="to_the_lighthouse">To the Lighthouse</string>
+    <string name="orlando_a_biography">Orlando: A Biography</string>
+    <string name="moments_of_being">Moments of Being</string>
+    <string name="maru_prarthna_vishwa">Maru Prarthna Vishwa</string>
+    <string name="satatya">Satatya</string>
+    <string name="kefiyat">Kefiyat</string>
+    <string name="surajmukhi">Surajmukhi</string>
+    <string name="mari_prarthnanu_akash">mari prarthnanu Akash</string>
+    <string name="mari_prarthnano_surya">Mari prarthnano Surya</string>
+    <string name="bhamari">bhamari</string>
+    <string name="ujani">Ujani</string>
+    <string name="sahitya_1_to_3">Sahitya 1 to 3</string>
+    <string name="no_idea_get_idea">No idea? get idea</string>
+    <string name="siddhante_kim">Siddhante kim?</string>
+    <string name="counterparts">Counterparts</string>
+    <string name="a_portrait_of_the_artist_as_a_young_man">A Portrait of the Artist as a Young Man</string>
+    <string name="very_good_lives">Very Good Lives</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="favorite1">Favorite</string>
+    <string name="e_book">E Book</string>
+    <string name="name">Name</string>
+
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#1C1614"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authors.Sixth_Activity"
+    >
+    <View
+        android:id="@+id/arrow_left_"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="81dp"
+        android:clipToOutline="true"
+        android:background="@drawable/group5911" />
+
+<!--    <View-->
+<!--        android:id="@+id/arrow_right"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:clipToOutline="true"-->
+<!--        android:background="@drawable/arrowrightine" />-->
+
+    <TextView
+        android:id="@+id/popular_aut"
+        android:layout_width="157dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:text="@string/popular_aut"
+        android:textAppearance="@style/popular_aut"
+        android:gravity="top" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/popular_aut"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/group_601"
+                android:layout_width="364dp"
+                android:layout_height="339dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/group606" />
+            <View
+                android:id="@+id/rectang"
+                android:layout_width="36dp"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="328dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/rectangle_6"
+                />
+            <ImageView
+                android:id="@+id/save"
+                android:layout_width="13dp"
+                android:layout_height="17dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="28dp"
+                android:layout_marginLeft="340dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/vector4"
+                />
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="345dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/group_601"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_4" />
+
+            <TextView
+                android:id="@+id/ulysses_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="370dp"
+                android:text="@string/bhamari"
+                android:textAppearance="@style/ulysses_"
+                android:gravity="top" />
+
+            <View
+                android:id="@+id/rectangl"
+                android:layout_width="345dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rectangle_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_4" />
+
+            <TextView
+                android:id="@+id/finnegans_w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="422dp"
+                android:text="@string/ujani"
+                android:textAppearance="@style/finnegans_w"
+                android:gravity="top" />
+
+            <View
+                android:id="@+id/rectangle04"
+                android:layout_width="345dp"
+                android:layout_height="44dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/rectangl"
+                android:background="@drawable/rectangle_4" />
+
+            <TextView
+                android:id="@+id/the_dead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="478dp"
+                android:text="@string/sahitya_1_to_3"
+                android:textAppearance="@style/the_dead"
+                android:gravity="top" />
+
+            <View
+                android:id="@+id/rectangle05"
+                android:layout_width="345dp"
+                android:layout_height="44dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/rectangle04"
+                android:background="@drawable/rectangle_4" />
+
+            <TextView
+                android:id="@+id/eveline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="530dp"
+                android:text="@string/no_idea_get_idea"
+                android:textAppearance="@style/eveline"
+                android:gravity="top" />
+
+            <View
+                android:id="@+id/rectangle06"
+                android:layout_width="345dp"
+                android:layout_height="44dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/rectangle05"
+                android:background="@drawable/rectangle_4" />
+
+            <TextView
+                android:id="@+id/the_sisters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="585dp"
+                android:text="@string/siddhante_kim"
+                android:textAppearance="@style/the_sisters"
+                android:gravity="top" />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

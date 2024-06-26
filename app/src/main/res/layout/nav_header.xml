@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rectangle_2"
+    android:layout_width="411dp"
+    android:layout_height="150dp"
+    android:background="@color/coffee">
+
+    <View
+        android:id="@+id/ellipse_26"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="#080808"
+        />
+
+    <View
+        android:id="@+id/user_1"
+        android:layout_width="28dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/profile"
+        />
+
+
+    <TextView
+        android:id="@+id/pankaj1_zave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="67dp"
+        android:textStyle="bold"
+        android:text="@string/name"
+         />
+
+    <TextView
+        android:id="@+id/ab_jewels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-35dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/e_book"
+         />
+
+
+</LinearLayout>

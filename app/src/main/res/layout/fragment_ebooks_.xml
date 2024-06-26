@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1C1614"
+    tools:context=".Ebooks_Fragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/recommended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:gravity="top"
+            android:text="@string/recommended"
+            android:textAppearance="@style/recommended" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="170dp"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="21dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/group1page"
+            />
+
+<!--        <View-->
+<!--            android:id="@+id/rectangle_1"-->
+<!--            android:layout_width="162dp"-->
+<!--            android:layout_height="187dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="25dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="80dp"-->
+<!--            android:background="@drawable/rectangle_2"-->
+<!--            />-->
+
+<!--        <View-->
+<!--            android:id="@+id/mask_group"-->
+<!--            android:layout_width="111.31dp"-->
+<!--            android:layout_height="168dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="51dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="90dp"-->
+<!--            android:background="@drawable/maskgroup5"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/american_pr"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="29.1dp"-->
+<!--            android:layout_marginTop="275dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/american_pr"-->
+<!--            android:textAppearance="@style/american_pr" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/martin_j_sh"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="295dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="29.1dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/martin_j_sh"-->
+<!--            android:textAppearance="@style/martin_j_sh" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/headphone"-->
+<!--            android:layout_width="13.15dp"-->
+<!--            android:layout_height="13dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="27.1dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="315dp"-->
+<!--            android:clipToOutline="true"-->
+<!--            android:background="@drawable/svgjssvg1279"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/ebook"-->
+<!--            android:layout_width="68.81dp"-->
+<!--            android:layout_height="17dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="312dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="46.32dp"-->
+<!--            android:text="@string/ebook"-->
+<!--            android:textAppearance="@style/ebook"-->
+<!--            android:gravity="top"-->
+<!--            />-->
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="170dp"
+            android:layout_height="260dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="203dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/group123page"
+            />
+
+<!--        <View-->
+<!--            android:id="@+id/rectangle_11"-->
+<!--            android:layout_width="161.6dp"-->
+<!--            android:layout_height="187dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="207.2dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="80dp"-->
+<!--            android:background="@drawable/rectangle_2"-->
+<!--            />-->
+
+<!--        <View-->
+<!--            android:id="@+id/image_22"-->
+<!--            android:layout_width="116dp"-->
+<!--            android:layout_height="172dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="230dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="90dp"-->
+<!--            android:background="@drawable/image_22"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/extra_india"-->
+<!--            android:layout_width="75dp"-->
+<!--            android:layout_height="16dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="275dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="211.4dp"-->
+<!--            android:text="@string/extra_india"-->
+<!--            android:textAppearance="@style/extra_india"-->
+<!--            android:gravity="top"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/eric_ganswo"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="211.4dp"-->
+<!--            android:layout_marginTop="295dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/eric_ganswo"-->
+<!--            android:textAppearance="@style/eric_ganswo" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/headphone1"-->
+<!--            android:layout_width="13.15dp"-->
+<!--            android:layout_height="13dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="209.4dp"-->
+<!--            android:layout_marginTop="315dp"-->
+<!--            android:background="@drawable/svgjssvg1279"-->
+<!--            android:clipToOutline="true" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/ebook2"-->
+<!--            android:layout_width="71.36dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="229.34dp"-->
+<!--            android:layout_marginTop="312dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/ebook"-->
+<!--            android:textAppearance="@style/ebook" />-->
+
+        <TextView
+            android:id="@+id/new_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="360dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:gravity="top"
+            android:text="@string/new_release"
+            android:textAppearance="@style/new_release" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="170dp"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/group21_page"
+            />
+
+<!--        <View-->
+<!--            android:id="@+id/rectangle1_1"-->
+<!--            android:layout_width="162dp"-->
+<!--            android:layout_height="187dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="22dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="415dp"-->
+<!--            android:background="@drawable/rectangle_2"-->
+<!--            />-->
+
+<!--        <View-->
+<!--            android:id="@+id/mask_group5"-->
+<!--            android:layout_width="111.31dp"-->
+<!--            android:layout_height="168dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="47dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="425dp"-->
+<!--            android:background="@drawable/maskgroup7"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/soldier_s_p"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="610dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="29.1dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/soldier_s_p"-->
+<!--            android:textAppearance="@style/soldier_s_p" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/william_bla"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="630dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="29.1dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/william_bla"-->
+<!--            android:textAppearance="@style/william_bla" />-->
+
+
+<!--        <View-->
+<!--            android:id="@+id/headphone3"-->
+<!--            android:layout_width="13.15dp"-->
+<!--            android:layout_height="13dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="27.1dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="650dp"-->
+<!--            android:clipToOutline="true"-->
+<!--            android:background="@drawable/svgjssvg1279"-->
+<!--            />-->
+
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/ebook3"-->
+<!--            android:layout_width="68.81dp"-->
+<!--            android:layout_height="17dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="646dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="46.32dp"-->
+<!--            android:text="@string/ebook"-->
+<!--            android:textAppearance="@style/ebook"-->
+<!--            android:gravity="top"-->
+<!--            />-->
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="170dp"
+            android:layout_height="260dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/group22page"
+            />
+
+<!--        <View-->
+<!--            android:id="@+id/rectanglwe_1"-->
+<!--            android:layout_width="161.6dp"-->
+<!--            android:layout_height="187dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="204.2dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="415dp"-->
+<!--            android:background="@drawable/rectangle_2"-->
+<!--            />-->
+
+<!--        <View-->
+<!--            android:id="@+id/mask_grou12p"-->
+<!--            android:layout_width="115.43dp"-->
+<!--            android:layout_height="168dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="227.29dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="425dp"-->
+<!--            android:background="@drawable/maskgroup8"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/dream_love"-->
+<!--            android:layout_width="69dp"-->
+<!--            android:layout_height="16dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="610dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="211.4dp"-->
+<!--            android:text="@string/dream_love"-->
+<!--            android:textAppearance="@style/dream_love"-->
+<!--            android:gravity="top"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/hanika"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="211.4dp"-->
+<!--            android:layout_marginTop="630dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/hanika"-->
+<!--            android:textAppearance="@style/hanika" />-->
+
+
+<!--        <View-->
+<!--            android:id="@+id/headphone4"-->
+<!--            android:layout_width="13.64dp"-->
+<!--            android:layout_height="13dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="209.4dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="650dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:clipToOutline="true"-->
+<!--            android:background="@drawable/svgjssvg1279"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/ebook4"-->
+<!--            android:layout_width="71.36dp"-->
+<!--            android:layout_height="17dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="646dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="229.34dp"-->
+<!--            android:text="@string/ebook"-->
+<!--            android:textAppearance="@style/ebook"-->
+<!--            android:gravity="top"-->
+<!--            />-->
+
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="170dp"
+            android:layout_height="260dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="685dp"
+            android:background="@drawable/group25page"
+            />
+
+<!--        <View-->
+<!--            android:id="@+id/rectangle12_1"-->
+<!--            android:layout_width="162dp"-->
+<!--            android:layout_height="187dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="22dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="690dp"-->
+<!--            android:background="@drawable/rectangle_2"-->
+<!--            />-->
+
+
+<!--        <View-->
+<!--            android:id="@+id/mask_group21"-->
+<!--            android:layout_width="111.31dp"-->
+<!--            android:layout_height="168dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="47dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="700dp"-->
+<!--            android:background="@drawable/maskgroup18"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/the_lord_of"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="885dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="29.1dp"-->
+<!--            android:text="@string/the_fellowship_of_the_ring"-->
+<!--            android:textAppearance="@style/the_lord_of1"-->
+<!--            android:gravity="top"-->
+<!--            />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/nirali_pate"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="29.1dp"-->
+<!--            android:layout_marginTop="902dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/nirali_pate"-->
+<!--            android:textAppearance="@style/nirali_pate" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/headphone5"-->
+<!--            android:layout_width="13.64dp"-->
+<!--            android:layout_height="13dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="27.1dp"-->
+<!--            android:layout_marginTop="922dp"-->
+<!--            android:background="@drawable/svgjssvg1279"-->
+<!--            android:clipToOutline="true" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/ebook5"-->
+<!--            android:layout_width="68.81dp"-->
+<!--            android:layout_height="17dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="919dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="46.32dp"-->
+<!--            android:text="@string/ebook"-->
+<!--            android:textAppearance="@style/ebook"-->
+<!--            android:gravity="top"-->
+<!--            />-->
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="170dp"
+            android:layout_height="260dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="685dp"
+            android:background="@drawable/group26page"
+            />
+
+<!--        <View-->
+<!--            android:id="@+id/rectxangle_1"-->
+<!--            android:layout_width="161.6dp"-->
+<!--            android:layout_height="187dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="204.2dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="690dp"-->
+<!--            android:background="@drawable/rectangle_2"-->
+<!--            />-->
+
+<!--        <View-->
+<!--            android:id="@+id/mask_group6"-->
+<!--            android:layout_width="115.43dp"-->
+<!--            android:layout_height="168dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="227.29dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="700dp"-->
+<!--            android:background="@drawable/maskgroup11"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/a_perfect_m"-->
+<!--            android:layout_width="129.07dp"-->
+<!--            android:layout_height="16dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="885dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="211.4dp"-->
+<!--            android:text="@string/a_perfect_m"-->
+<!--            android:textAppearance="@style/a_perfect_m"-->
+<!--            android:gravity="top"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/astha_signg"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="211.4dp"-->
+<!--            android:layout_marginTop="902dp"-->
+<!--            android:gravity="top"-->
+<!--            android:text="@string/astha_signg"-->
+<!--            android:textAppearance="@style/astha_signg" />-->
+
+<!--        <View-->
+<!--            xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--            android:id="@+id/headphone65"-->
+<!--            android:layout_width="13.64dp"-->
+<!--            android:layout_height="13dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="208.4dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="922dp"-->
+<!--            android:clipToOutline="true"-->
+<!--            android:background="@drawable/svgjssvg1279"-->
+<!--            />-->
+
+
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/ebook7"-->
+<!--            android:layout_width="71.36dp"-->
+<!--            android:layout_height="17dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginTop="919dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="228.34dp"-->
+<!--            android:text="@string/ebook"-->
+<!--            android:textAppearance="@style/ebook"-->
+<!--            android:gravity="top"/>-->
+
+    </FrameLayout>
+</ScrollView>
